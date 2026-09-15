@@ -1,4 +1,4 @@
-name: Build and Push Parallel
+name: Build and Push Parallel ESP32 C5
 
 on:
   workflow_dispatch:
