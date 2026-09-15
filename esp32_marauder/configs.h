@@ -482,13 +482,13 @@
     //#define HAS_BATTERY
     #define HAS_BT
     //#define HAS_BUTTONS
-    #define HAS_NEOPIXEL_LED
+    // #define HAS_NEOPIXEL_LED
     //#define HAS_PWR_MGMT
     //#define HAS_SCREEN
-    #define HAS_GPS
-    #define HAS_C5_SD
-    #define HAS_SD
-    #define USE_SD
+    // #define HAS_GPS
+    // #define HAS_C5_SD
+    // #define HAS_SD
+    // #define USE_SD
     #define HAS_DUAL_BAND
     //#define HAS_PSRAM
     //#define HAS_TEMP_SENSOR
