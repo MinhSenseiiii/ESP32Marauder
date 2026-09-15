@@ -492,7 +492,7 @@
     #define HAS_DUAL_BAND
     //#define HAS_PSRAM
     //#define HAS_TEMP_SENSOR
-    #define HAS_NIMBLE_2
+    // #define HAS_NIMBLE_2
     #define HAS_IDF_3
   #endif
 
