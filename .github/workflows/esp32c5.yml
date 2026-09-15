@@ -18,7 +18,7 @@ jobs:
       matrix:
         board:
           # (Your other boards are commented out here for brevity, you can keep them as-is)
-          - { name: "ESP32-C5-DevKitC-1", flag: "MARAUDER_C5", fbqn: "esp32:esp32:esp32c5:FlashSize=4M,PartitionScheme=min_spiffs,PSRAM=disabled", file_name: "esp32c5devkitc1", tft: false, tft_file: "", build_dir: "esp32c5", addr: "0x0000", idf_ver: "3.3.4", nimble_ver: "2.3.8", esp_async: "bigbrodude6119/ESPAsyncWebServer", esp_async_ver: "master" }
+          - { name: "ESP32-C5-DevKitC-1", flag: "MARAUDER_C5", fbqn: "esp32:esp32:esp32c5:FlashSize=4M,PartitionScheme=min_spiffs,PSRAM=disabled", file_name: "esp32c5devkitc1", tft: false, tft_file: "", build_dir: "esp32c5", addr: "0x2000", idf_ver: "3.3.4", nimble_ver: "2.3.8", esp_async: "bigbrodude6119/ESPAsyncWebServer", esp_async_ver: "master" }
           
     steps:
       - name: Checkout Code
