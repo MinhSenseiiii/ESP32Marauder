@@ -477,23 +477,23 @@
   #endif
 
   #ifdef MARAUDER_C5
-    //#define HAS_FLIPPER_LED
-    //#define FLIPPER_ZERO_HAT
-    //#define HAS_BATTERY
+    // #define HAS_FLIPPER_LED
+    // #define FLIPPER_ZERO_HAT
+    // #define HAS_BATTERY
     #define HAS_BT
-    //#define HAS_BUTTONS
+    // #define HAS_BUTTONS
     // #define HAS_NEOPIXEL_LED
-    //#define HAS_PWR_MGMT
-    //#define HAS_SCREEN
+    // #define HAS_PWR_MGMT
+    // #define HAS_SCREEN
     // #define HAS_GPS
     // #define HAS_C5_SD
     // #define HAS_SD
     // #define USE_SD
     #define HAS_DUAL_BAND
-    //#define HAS_PSRAM
-    //#define HAS_TEMP_SENSOR
+    // #define HAS_PSRAM
+    // #define HAS_TEMP_SENSOR
     // #define HAS_NIMBLE_2
-    #define HAS_IDF_3
+    // #define HAS_IDF_3
   #endif
 
   #ifdef MARAUDER_V8
