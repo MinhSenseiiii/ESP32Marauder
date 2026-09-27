@@ -29,7 +29,7 @@
   //#define MARAUDER_CYD_2USB // Another 2432S028 but it has tWo UsBs OoOoOoO
   //#define MARAUDER_CYD_GUITION // ESP32-2432S024 GUITION
   //#define MARAUDER_CYD_3_5_INCH
-  //#define MARAUDER_C5
+  #define MARAUDER_C5
   //#define MARAUDER_CARDPUTER
   //#define MARAUDER_CARDPUTER_ADV
   //#define MARAUDER_V8
@@ -488,7 +488,7 @@
     #define HAS_NEOPIXEL_LED
     //#define HAS_PWR_MGMT
     //#define HAS_SCREEN
-    #define HAS_GPS
+    // #define HAS_GPS
     #define HAS_C5_SD
     #define HAS_SD
     #define USE_SD
@@ -2633,8 +2633,8 @@
       #define GPS_RX 9
     #elif defined(MARAUDER_C5)
       #define GPS_SERIAL_INDEX 1
-      #define GPS_TX 14
-      #define GPS_RX 13
+      #define GPS_TX -1
+      #define GPS_RX -1
     #elif defined(MARAUDER_V8)
       #define GPS_SERIAL_INDEX 1
       #define GPS_TX 14
